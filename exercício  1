@@ -1,0 +1,158 @@
+ //console.log('Olá mundo')
+/*
+  Isso é um comentário
+de multiplas
+linhas
+*/
+
+//variáveis: armazena informações
+
+var nome='Raysa'//string
+let numero= 10//number
+nome='Levi'//string
+const pi= 3.14//number
+//pi= 2.15
+diaQuente= true//boolean
+console.log(diaQuente)
+/*
+  tipos de dados
+  Strings: o dado é lido da forma literal.
+  Number:
+      int;
+      floats;
+  Bolleanos:
+      True;
+      False;
+*/
+//console.log('Olá mundo')
+/*
+  Isso é um comentário
+de multiplas
+linhas
+*/
+
+//variáveis: armazena informações
+
+var nome='Raya'//string
+let numero= 10//number
+nome='David'//string
+const pi= 3.14//number
+//pi= 2.15
+diaQuente= true//boolean
+//console.log(diaQuente)
+/*
+  tipos de dados
+  Strings: o dado é lido da forma literal.
+  Number:
+      int;
+      floats;
+  Bolleanos:
+      True;
+      False;
+*/
+
+//numero='10'
+
+//console.log(typeof(numero))
+/*
+
+  Operadores aritiméticos
+  + somar
+  - somar
+  * multiplicar
+  / dividir
+  % resto da divisão
+  ++ incremento  (adição de uma variável)
+  -- decremento  (subtração de uma variável)
+
+*/
+var num= 10
+//num++
+//num--
+//console.log(num)
+
+
+
+
+//template string: criar uma string com diferentes tipos de dados.
+var name= 'Raya'
+var idade= 1
+//console.log(`Sou ${name} e tenho ${idade} ano!`)
+
+/*
+  Operadpres de atribuição
+    = atribui um valor a uma variável
+   += atribui o resultado da operação a uma variável
+   -= atribui o resultado da operação a uma variável
+   *= atribui o resultado da operação a uma variável
+   %= atribui o resultado da operação a uma variável
+
+*/
+
+var numero2= 2
+numero2 += 3
+//console.log(numero2)
+
+/*
+  Operadores relacionais
+  ==  verifica se o primeiro valor é igual ao segundo valor;
+  !=  verifica se o primeiro valor é diferente do segundo;
+  ===  verifica se os dois valores são iguais e do mesmo tipo;
+  !==  verifica se os dois valores são diferentes e de tipos diferentes;
+
+  >  verifica se o primeiro valor é maior que o segundo;
+  <  verifica se o primeiro valor é menor que o segundo;
+  >=  verifica se o primeiro valor é maior ou igual ao segundo;
+  <=  verifica se o primeiro valor é menor ou igual ao segundo;
+
+*/
+//console.log(2 > 2)
+/*
+  Operadores lógicos
+  and (e) &&
+  or (ou) ||
+  not (não) !
+*/
+
+var login= 'ana'
+var senha= '123'
+
+//console.log(login == 'ana' && senha == '1234')
+
+/*
+console.log(true && true)
+console.log(true && false)
+console.log(false && true)
+console.log(false && false)
+
+
+console.log(true || true)
+console.log(true || false)
+console.log(false || true)
+console.log(false || false)
+*/
+
+
+  //estrutura de decisão
+//estrutura condicional
+//if    (se)
+//else if (senão se)
+//else  (senão)
+
+var login= 'ana'
+var senha= '123'
+/*
+if(login == 'ana' && senha == '1234'){
+  console.log('Acesso permitido')
+}else{
+  console.log('Acesso negado')
+}*/
+
+var tamanhoImagem=7
+if(tamanhoImagem >= 100){
+  console.log('imagem grande')
+}else if(10 < tamanhoImagem && tamanhoImagem < 100){
+  console.log('imagem adequada')
+}else{
+  console.log('imagem pequena')
+}
